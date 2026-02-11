@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-          <Script src="https://www.googletagmanager.com/gtag/js?id=RANDOM" />
+          <Script src="https://www.googletagmanager.com/gtag/js?id=RANDOM" strategy="beforeInteractive" />
       </head>
       <body
         className={`antialiased`}
