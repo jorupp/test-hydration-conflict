@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+          <Script src="https://www.googletagmanager.com/gtag/js?id=RANDOM" />
+      </head>
       <body
         className={`antialiased`}
       >
